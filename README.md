@@ -6,7 +6,7 @@ This repo is a slight modification of [Separate Development and Production Envir
 
 
 ## References:
-[Workspaces]https://www.terraform.io/docs/state/workspaces.html
+[Workspaces](https://www.terraform.io/docs/state/workspaces.html)
 
 
 ## Install Terraform
