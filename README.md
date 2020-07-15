@@ -9,6 +9,10 @@ This repo is a slight modification of [Separate Development and Production Envir
 [Workspaces]https://www.terraform.io/docs/state/workspaces.html
 
 
+## Install Terraform
+[Install](https://learn.hashicorp.com/terraform/getting-started/install.html)
+
+
 ## Run the code
 
 ### Navigate to the directory
