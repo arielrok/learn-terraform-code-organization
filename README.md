@@ -42,6 +42,12 @@ This repo is a slight modification of [Separate Development and Production Envir
 `terraform workspace select prod`
 `terraform destroy -var-file=prod.tfvars`
 
+### Options
+#### Workspace: select existing or create new
+`terraform workspace select dev || terraform workspace new dev`
+#### Apply with auto-approve
+`terraform apply -auto-approve -var-file=dev.tfvars`
+
 ### State storage in workspaces
 - When there is only a `default` workspace, `terraform.tfstate` file is stored in the root directory of the project.
 - When there are additional workspaces, Terraform internals manage and store state files in the directory `terraform.tfstate.d` at the project root.
